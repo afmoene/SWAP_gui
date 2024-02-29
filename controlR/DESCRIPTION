@@ -1,0 +1,17 @@
+Package: controlR
+Type: Package
+Title: R-tools for handling control(file)
+Version: 1.0.18
+Authors@R: person(given = "Martin", family = "Mulder", 
+    email = "Martin2.Mulder@wur.nl", role = c("aut", "cre", "cph"))
+Description: R-tools for handling control(file).
+License: GPL (>= 3)
+Depends: R (>= 4.0.0)
+Encoding: UTF-8
+Imports: lubridate (>= 1.8.0), stringr (>= 1.4.0), readr (>= 2.1.1),
+        curl (>= 4.3.2), ggplot2 (>= 3.3.5)
+RoxygenNote: 7.1.2
+NeedsCompilation: no
+Packaged: 2022-08-02 06:54:07 UTC; mulde027
+Author: Martin Mulder [aut, cre, cph]
+Maintainer: Martin Mulder <Martin2.Mulder@wur.nl>

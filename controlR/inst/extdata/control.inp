@@ -1,0 +1,33 @@
+# example controlfile
+# R-package controlR
+
+# example of directory
+DIROUT                  ./results/
+
+# example of file
+#FILE                   ./inp ut.csv    ! comment: wrong link
+FILE                    ./input.csv     ! comment: return string
+
+# example of value
+VALUE                   -99             ! comment: return value
+
+# example of date
+DATE                    2019-08-13      ! comment: return date
+
+# example of table
+Table VALUES
+   1 ! comment
+   2
+#  3
+   4
+   5
+End Table
+
+# example of table
+Table TIMESERIES
+   2019-08-11  1.1
+   2019-08-12  2.2
+   2019-08-13  3.3
+End Table
+
+VARIABLE                {{item_to_set}}
